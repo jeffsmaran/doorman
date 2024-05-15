@@ -1,0 +1,30 @@
+{
+  "name": "boilerplate-rapidao",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with Fastify-CLI.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --test test/**/*.test.js",
+    "build": "tsc -p tsconfig.json",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "^5.0.0",
+    "@fastify/sensible": "^5.0.0",
+    "fastify": "^4.26.1",
+    "fastify-cli": "^6.1.1",
+    "fastify-plugin": "^4.0.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node21": "^21.0.3",
+    "@types/node": "^20.12.12",
+    "@types/pino": "^7.0.5",
+    "typescript": "^5.4.5"
+  }
+}
