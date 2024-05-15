@@ -9,7 +9,7 @@
   "scripts": {
     "test": "node --test test/**/*.test.js",
     "build": "tsc -p tsconfig.json",
-    "start": "node index.js"
+    "start": "node build/index.js"
   },
   "keywords": [],
   "author": "",
